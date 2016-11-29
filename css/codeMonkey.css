@@ -1,8 +1,16 @@
 @charset "utf-8";
+
 /* CSS Document */
-
-
+@media screen and (min-width:960px) {
 #div_codeMonkey_bg {
 	z-index: -1;
 	background-image: url(../images/bg_code.jpg);
+}
+}
+
+@media screen and (max-width:960px) {
+#div_codeMonkey_bg {
+	z-index: -1;
+	background-image: url(../images/bg_code.jpg);
+}
 }
