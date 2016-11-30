@@ -2,6 +2,44 @@
 
 /* CSS Document */
 
+@media screen and (max-device-width:960) {
+#div_nav {
+	position: fixed;
+	visibility: hidden;
+}
+#div_hamburger {
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	z-index: 1;
+}
+#div_topBar {
+	width: 100%;
+	height: inherit;
+	background-color: white;
+}
+#div_Icon {
+	background-image: url(../images/hamburgerIcon.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	width: 50px;
+	height: 40px;
+	float: left;
+}
+#div_hamTittle {
+	font-size: 24px;
+	font-family: AlexBrush;
+	display: block;
+	width: 50px;
+	float: left;
+	line-height: 50px;
+}
+
+}
 @media screen and (max-width:960) {
 #div_nav {
 	position: fixed;

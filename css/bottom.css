@@ -19,6 +19,26 @@ font-family:AlexBrush;
  font-size: 36px;
 }
 }
+@media screen and (max-device-width:960px){
+ #div_bottom {
+	 margin-top:10px;
+ width:100%;
+ height:200px;
+ background-color:#1083D7;
+font-family:AlexBrush;
+ color:white;
+ text-align:center;
+ padding-top:20px;
+}
+#div_bottom h1 {
+ line-height: 30px;
+ font-size: 56px;
+}
+#div_bottom h2 {
+ line-height: 30px;
+ font-size: 36px;
+}
+}
 @media screen and (max-width:960px){
  #div_bottom {
 	 margin-top:10px;
