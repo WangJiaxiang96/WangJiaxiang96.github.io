@@ -3,7 +3,7 @@
 /* CSS Document */
 @media screen and (min-width:960px) {
 #div_hamburger {
-	position:fixed;
+	position: fixed;
 	visibility: hidden;
 }
 #div_nav {
@@ -14,40 +14,58 @@
 	left: 0px;
 	background-color: white;
 	opacity: 0.8;
-	z-index: 1;
-	overflow: hidden;
+	z-index: 2;
 }
 #div_tittle {
 	margin: 0 auto;
 	opacity: 1;
 	color: black;
-	width: 800px;
+	width: auto;
 	line-height: 75px;
 }
 #div_tittle ul {
 	float: left;
 }
 .li_nav {
+	overflow:hidden;
+	height:75px;
+	width: 175px;
 	font-size: 24px;
 	margin-left: 20px;
 	margin-right: 20px;
 	display: inline;
+	float: left;
+	transition: width 0.3s;
 }
+#li_nav1:hover {
+	margin-right:0px;
+	width: 410px;
+}
+#li_nav2:hover {
+	width: 410px;
+	margin-right:0px;
+}
+.li_nav div{
+	width:600px;
+	height:75px;}
 .li_nav a {
-	padding: 25.5px 15px 25.5px 15px;
+	height:75px;
+	float:left;
+	padding: 0px 15px 0px 15px;
 	line-height: 75px;
 	text-decoration: none;
 	transition: background-color 0.5s;
 	transition: color 0.5s;
 }
 #li_main {
+	width: auto;
 	line-height: 75px;
 	font-family: AlexBrush;
 	font-size: 36px;
 	opacity: 0.8;
 }
 #li_main a {
-	padding: 19px 15px 19px 15px;
+	padding: 0px 15px 0x 15px;
 }
 .li_nav a:link {
 	color: black;
@@ -62,5 +80,41 @@
 }
 .li_nav a:active {
 	color: black;
+}
+#li_nav_ul1 {
+}
+#li_nav_ul2 {
+}
+.li_nav_ul {
+	
+}
+.li_nav_ul li {	
+	float:left;
+	margin-left: 0px;
+	margin-right: 5px;
+	list-style: none;
+}
+.li_nav_ul a {
+	font-size:20px;
+	height:75px;
+	padding: 0px 15px 0px 15px;
+	line-height: 75px;
+	text-decoration: none;
+	transition: background-color 0.5s;
+	transition: color 0.5s;
+}
+.li_nav_ul a:link {
+	color:#2EAF41;
+}
+.li_nav_ul a:visited {
+	color: #2EAF41;
+}
+.li_nav_ul a:hover {
+	opacity: 0.8;
+	background-color: #2EAF41;
+	color: white;
+}
+.li_nav_ul a:active {
+	color: #2EAF41;
 }
 }
