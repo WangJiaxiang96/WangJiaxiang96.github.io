@@ -1,11 +1,7 @@
 @charset "utf-8";
 
 /* CSS Document */
-@media screen and (min-width:960px) {
-#div_hamburger {
-	position: fixed;
-	visibility: hidden;
-}
+
 #div_nav {
 	width: 100%;
 	height: 75px;
@@ -15,6 +11,8 @@
 	background-color: white;
 	opacity: 0.8;
 	z-index: 2;
+	visibility:visible;
+	display:block;
 }
 #div_tittle {
 	margin: 0 auto;
@@ -65,7 +63,7 @@
 	opacity: 0.8;
 }
 #li_main a {
-	padding: 0px 15px 0x 15px;
+	padding: 0px 15px 0px 15px;
 }
 .li_nav a:link {
 	color: black;
@@ -117,4 +115,4 @@
 .li_nav_ul a:active {
 	color: #2EAF41;
 }
-}
+

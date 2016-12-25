@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+.div_miracle {
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+}
+.div_bg {
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-attachment:fixed;
+	background-size: cover;
+}
+.div_content {
+	color: white;
+	width: 80%;
+	margin: 0 auto;
+	position: relative;
+	bottom: 450px;
+}
+.div_miracleTittle {
+	font-size: 24px;
+}
+.li_MORE {
+	list-style: none;
+}
+.ul_masterpiece li a:hover {
+	text-decoration: underline;
+}
+.div_end {
+	position: relative;
+	bottom: 400px;
+	width: 100%;
+	height: 200px;
+	background-color: #F4F4F4;
+}

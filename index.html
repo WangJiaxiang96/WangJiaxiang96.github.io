@@ -1,23 +1,34 @@
 <!doctype html>
 <html>
 <head>
-<link type="text/javascript" href="js/hamburger.js">
-<link rel="stylesheet" type="text/css" href="css/hambruger.css">
-<link rel="stylesheet" type="text/css" href="css/bottom.css">
-<link rel="stylesheet" type="text/css" href="css/musicProducer.css">
-<link rel="stylesheet" type="text/css" href="css/miracleCommon.css">
-<link rel="stylesheet" type="text/css" href="css/codeMonkey.css">
-<link rel="stylesheet" type="text/css" href="css/TH1.css">
-<link rel="stylesheet" type="text/css" href="css/Universal.css">
-<link rel="stylesheet" type="text/css" href="css/font.css">
-<link rel="stylesheet" type="text/css" href="css/Nav.css">
+<!--自适应原理：默认加载mobile版页面css，当设备宽度大于700且显示宽度大于700时，则用pc版页面css覆盖-->
+<link rel="stylesheet" media="screen and (min-device-width:0px)" type="text/css" href="css/mobile/codeMonkey_Mobile.css">
+<link rel="stylesheet" media="screen and (min-device-width:0px)" type="text/css" href="css/mobile/bottom_Mobile.css">
+<link rel="stylesheet" media="screen and (min-device-width:0px)" type="text/css" href="css/mobile/hambruger_Mobile.css">
+<link rel="stylesheet" media="screen and (min-device-width:0px)" type="text/css" href="css/mobile/miracleCommon_Mobile.css">
+<link rel="stylesheet" media="screen and (min-device-width:0px)" type="text/css" href="css/mobile/musicProducer_Mobile.css">
+<link rel="stylesheet" media="screen and (min-device-width:0px)" type="text/css" href="css/mobile/Nav_Mobile.css">
+<link rel="stylesheet" media="screen and (min-device-width:0px)" type="text/css" href="css/mobile/TH1_Mobile.css">
+<link rel="stylesheet" media="screen and (min-device-width:0px)" type="text/css" href="css/mobile/Universal_Mobile.css">
+
+<link rel="stylesheet" media="screen and (min-width:960px)" type="text/css" href="css/pc/hambruger_PC.css">
+<link rel="stylesheet" media="screen and (min-width:960px)" type="text/css" href="css/pc/bottom_PC.css">
+<link rel="stylesheet" media="screen and (min-width:960px)" type="text/css" href="css/pc/musicProducer_PC.css">
+<link rel="stylesheet" media="screen and (min-width:960px)" type="text/css" href="css/pc/miracleCommon_PC.css">
+<link rel="stylesheet" media="screen and (min-width:960px)" ype="text/css" href="css/pc/codeMonkey_PC.css">
+<link rel="stylesheet" media="screen and (min-width:960px)" type="text/css" href="css/pc/TH1_PC.css">
+<link rel="stylesheet" media="screen and (min-width:960px)" type="text/css" href="css/pc/Universal_PC.css">
+<link rel="stylesheet" media="screen and (min-width:960px)" type="text/css" href="css/pc/Nav_PC.css">
+
+<link rel="stylesheet" type="text/css" href="css/common/font.css">
+
 <meta charset="utf-8">
 <meta name="keywords" content="王嘉祥,博客,月落星隐,王者降临,Wang Jiaxiang,wjx,wangjiaxiang,wangjiaxiang.net,">
 <meta name="author" content="王嘉祥，Wang Jiaxiang">
 <meta name="description"
 content="我是王嘉祥，在编曲与编程的路上编织梦想！" 
 itemprop="description">
-<meta name="ROBOT" content="INDEX"/>
+<meta name="Robots" content="All"/>
 <title>月落星隐-王者降临</title>
 </head>
 <!-- If you wonna contact me plz send to JasonisJasoon@outlook.com-->
@@ -41,17 +52,22 @@ itemprop="description">
       <li class="li_nav" id="li_main"><a id="a_main" target="_blank" href="http://wangjiaxiang.net/">Wang Jiaxiang</a></li>
     </ul>
     <ul>
-      <li class="li_nav" id="li_nav1"><div><a target="_blank"  href="http://wangjiaxiang.net/">编程那些事儿</a>
-        <ul class="li_nav_ul" id="li_nav_ul1">
-          <li><a target="_blank"  href="http://wangjiaxiang.net/">开发笔记</a></li>
-          <li><a target="_blank"  href="http://wangjiaxiang.net/">开发成果</a></li>
-        </ul></div>
+      <li class="li_nav" id="li_nav1">
+        <div><a target="_blank"  href="http://wangjiaxiang.net/">编程那些事儿</a>
+          <ul class="li_nav_ul" id="li_nav_ul1">
+            <li><a target="_blank"  href="http://wangjiaxiang.net/">开发笔记</a></li>
+            <li><a target="_blank"  href="http://wangjiaxiang.net/">开发成果</a></li>
+          </ul>
+        </div>
       </li>
-      <li class="li_nav" id="li_nav2"><div><a target="_blank"  href="http://wangjiaxiang.net/">编曲真好玩儿</a>
-        <ul class="li_nav_ul" id="li_nav_ul2">
-          <li><a target="_blank"  href="http://wangjiaxiang.net/">编曲心得</a></li>
-          <li><a target="_blank"  href="http://wangjiaxiang.net/">音乐作品</a></li>
-        </ul></div></li>
+      <li class="li_nav" id="li_nav2">
+        <div><a target="_blank"  href="http://wangjiaxiang.net/">编曲真好玩儿</a>
+          <ul class="li_nav_ul" id="li_nav_ul2">
+            <li><a target="_blank"  href="http://wangjiaxiang.net/">编曲心得</a></li>
+            <li><a target="_blank"  href="http://wangjiaxiang.net/">音乐作品</a></li>
+          </ul>
+        </div>
+      </li>
     </ul>
   </div>
 </div>

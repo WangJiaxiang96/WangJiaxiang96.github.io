@@ -2,7 +2,7 @@
 /* CSS Document */
 @media screen and (max-device-width:960px){
 #div_TH1 {
-	background-image: url(../images/bg_main.jpg);
+	background-image: url(../../images/bg_main.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -38,7 +38,7 @@
 }
 @media screen and (max-width:960px){
 #div_TH1 {
-	background-image: url(../images/bg_main.jpg);
+	background-image: url(../../images/bg_main.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -75,7 +75,7 @@
 }
 @media screen and (min-width:960px){
 #div_TH1 {
-	background-image: url(../images/bg_main.jpg);
+	background-image: url(../../images/bg_main.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
