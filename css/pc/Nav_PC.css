@@ -18,42 +18,14 @@
 	margin: 0 auto;
 	opacity: 1;
 	color: black;
-	width: auto;
+	width: 720px;
 	line-height: 75px;
+	transition:width 0.3s ease;
+	overflow:hidden;
 }
 #div_tittle ul {
+	padding:0px;
 	float: left;
-}
-.li_nav {
-	overflow:hidden;
-	height:75px;
-	width: 175px;
-	font-size: 24px;
-	margin-left: 20px;
-	margin-right: 20px;
-	display: inline;
-	float: left;
-	transition: width 0.3s;
-}
-#li_nav1:hover {
-	margin-right:0px;
-	width: 410px;
-}
-#li_nav2:hover {
-	width: 410px;
-	margin-right:0px;
-}
-.li_nav div{
-	width:600px;
-	height:75px;}
-.li_nav a {
-	height:75px;
-	float:left;
-	padding: 0px 15px 0px 15px;
-	line-height: 75px;
-	text-decoration: none;
-	transition: background-color 0.5s;
-	transition: color 0.5s;
 }
 #li_main {
 	width: auto;
@@ -64,6 +36,38 @@
 }
 #li_main a {
 	padding: 0px 15px 0px 15px;
+}
+.li_nav {
+	overflow:hidden;
+	height:75px;
+	width: 175px;
+	font-size: 24px;
+	margin-left: 20px;
+	margin-right: 20px;
+	display: inline;
+	float: left;
+	transition: width 0.3s ease;
+}
+#li_nav1:hover {
+	margin-right:0px;
+	width:410px;
+}
+#li_nav2:hover {
+	width: 410px;
+	margin-right:0px;
+}
+.li_nav div{
+	width:600px;
+	height:75px;
+}
+.li_nav a {
+	height:75px;
+	float:left;
+	padding: 0px 15px 0px 15px;
+	line-height: 75px;
+	text-decoration: none;
+	transition: background-color 0.5s;
+	transition: color 0.5s;
 }
 .li_nav a:link {
 	color: black;
