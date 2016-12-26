@@ -10,7 +10,7 @@
 <link rel="stylesheet" media="screen and (min-device-width:0px) and (max-device-width:960px)" type="text/css" href="css/mobile/Nav_Mobile.css">
 <link rel="stylesheet" media="screen and (min-device-width:0px) and (max-device-width:960px)" type="text/css" href="css/mobile/TH1_Mobile.css">
 <link rel="stylesheet" media="screen and (min-device-width:0px) and (max-device-width:960px)" type="text/css" href="css/mobile/Universal_Mobile.css">
-  
+
 <link rel="stylesheet" media="screen and (min-device-width:960px) and (min-width:0px)" type="text/css" href="css/mobile/codeMonkey_Mobile.css">
 <link rel="stylesheet" media="screen and (min-device-width:960px) and (min-width:0px)" type="text/css" href="css/mobile/bottom_Mobile.css">
 <link rel="stylesheet" media="screen and (min-device-width:960px) and (min-width:0px)" type="text/css" href="css/mobile/hambruger_Mobile.css">
@@ -19,8 +19,7 @@
 <link rel="stylesheet" media="screen and (min-device-width:960px) and (min-width:0px)" type="text/css" href="css/mobile/Nav_Mobile.css">
 <link rel="stylesheet" media="screen and (min-device-width:960px) and (min-width:0px)" type="text/css" href="css/mobile/TH1_Mobile.css">
 <link rel="stylesheet" media="screen and (min-device-width:960px) and (min-width:0px)" type="text/css" href="css/mobile/Universal_Mobile.css">
-  
-  
+
 <link rel="stylesheet" media="screen and (min-device-width:960px) and (min-width:960px)" type="text/css" href="css/pc/hambruger_PC.css">
 <link rel="stylesheet" media="screen and (min-device-width:960px) and (min-width:960px)" type="text/css" href="css/pc/bottom_PC.css">
 <link rel="stylesheet" media="screen and (min-device-width:960px) and (min-width:960px)" type="text/css" href="css/pc/musicProducer_PC.css">
@@ -31,6 +30,8 @@
 <link rel="stylesheet" media="screen and (min-device-width:960px) and (min-width:960px)" type="text/css" href="css/pc/Nav_PC.css">
 
 <link rel="stylesheet" type="text/css" href="css/common/font.css">
+
+<script src="js/hamburger.js"></script>
 
 <meta charset="utf-8">
 <meta name="keywords" content="王嘉祥,博客,月落星隐,王者降临,Wang Jiaxiang,wjx,wangjiaxiang,wangjiaxiang.net,">
@@ -46,14 +47,17 @@ itemprop="description">
 <body>
 <div id="div_hamburger">
   <div id="div_topBar">
-    <div id="div_Icon"></div>
+    <div id="div_Icon" onClick="hamburgerMenu()"></div>
     <div id="div_hamTittle"> Wangjiaxiang.net </div>
   </div>
-  <div id="menu" onClick="js/hamburger.js">
-    <ul>
-      <li><a target="_blank">编程那些事儿</a></li>
-      <li><a target="_blank">编曲真好玩儿</a></li>
-    </ul>
+  <div id="menu">
+    <div id="menu_bg" onClick="collapsePanel()"></div>
+    <div id="menu_content">
+      <ul>
+        <li><a target="_blank">编程那些事儿</a></li>
+        <li><a target="_blank">编曲真好玩儿</a></li>
+      </ul>
+    </div>
   </div>
 </div>
 <div id="div_nav">
