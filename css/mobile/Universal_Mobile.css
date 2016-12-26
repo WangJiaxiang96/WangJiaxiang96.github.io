@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 /* CSS Document */
 
 body {
@@ -11,7 +10,6 @@ body {
 	padding-left: 10px;
 	padding-right: 10px;
 }
-
 div {
 	margin: 0px;
 	border: none;
@@ -42,6 +40,6 @@ a:visited {
 a:hover {
 	color: white;
 }
-a:activ {
- color:white;
+a:active {
+	color: white;
 }
