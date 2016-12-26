@@ -14,6 +14,7 @@ function collapsePanel(){
 	menuPanel.style.cssText="left:-200px;";
 	var menuBG=document.getElementById("menu_bg");
 	menuBG.style.cssText="display:none;";
+	menuBG.add
 }
 
 function hamburgerMenu(){	
