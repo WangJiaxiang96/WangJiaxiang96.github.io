@@ -17,18 +17,30 @@
 	background-size: cover;
 }
 .div_content {
+	position:absolute;
 	color: white;
-	width: 900px;
-	margin: 0 auto;
-	position: absolute;
-	top:0px;	
+	width: 60%;
+	height:60%;
+	margin: 0 20%;
+	top:20%;	
 }
 .div_miracleTittle {
 	font-size: 36px;
+	float:left;
 }
-.li_MORE {
-	list-style: none;
+.div_masterpiece {
+	opacity:0.6;
+	background-color:#F4F4F4;
+	height:100%;
+	width:40%;
+	float:right;		
 }
-.ul_masterpiece li a:hover {
-	text-decoration: underline;
+.div_masterpieceType{
+	height:10%;
+	width:48%;
+	margin:0 1%;
+	float:left;
+	border-bottom-color:#2EAF41;
+	border-bottom-style:solid;
+	border-bottom-width:medium;
 }
