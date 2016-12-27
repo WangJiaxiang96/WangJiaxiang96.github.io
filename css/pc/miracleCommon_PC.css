@@ -3,11 +3,11 @@
 
 .div_miracle {
 	width: 100%;
-	position:relative;
-	top:0px;
+	position: relative;
+	top: 0px;
 	overflow: hidden;
-	margin-top:200px;
-	height:900px;
+	margin-top: 200px;
+	height: 900px;
 }
 .div_bg {
 	width: 100%;
@@ -16,76 +16,109 @@
 	background-attachment: fixed;
 	background-size: cover;
 }
+.div_masterpieceContent a:link {
+	color: black;
+}
+.div_masterpieceContent a:visited {
+	color: black;
+}
+.div_masterpieceContent a:hover {
+	color: black;
+}
+.div_masterpieceContent a:active {
+	color: black;
+}
 .div_content {
-	position:absolute;
+	position: absolute;
 	color: white;
 	width: 60%;
-	height:60%;
+	height: 60%;
 	margin: 0 20%;
-	top:20%;	
+	top: 20%;
 }
 .div_miracleTittle {
-	cursor:default;
+	cursor: default;
 	font-size: 36px;
-	float:left;
-	width:55%;
-	margin-right:5%;
+	float: left;
+	width: 55%;
+	margin-right: 5%;
 }
 .div_masterpiece {
-	position:relative;
-	opacity:0.6;
-	background-color:#F4F4F4;
-	height:100%;
-	width:40%;
-	float:left;
-	padding:0 1% 0 1%;
-	box-sizing:border-box;
-	color:black;
-	overflow:hidden;
+	position: relative;
+	opacity: 0.6;
+	background-color: #F4F4F4;
+	height: 100%;
+	width: 40%;
+	float: left;
+	padding: 0 1% 0 1%;
+	box-sizing: border-box;
+	color: black;
+	overflow: hidden;
 }
-.div_masterpieceType{
-	cursor:pointer;
-	text-align:center;
-	height:10%;
-	width:40%;
-	margin:0 5%;
-	float:left;
+.div_masterpieceType {
+	cursor: pointer;
+	text-align: center;
+	height: 10%;
+	width: 40%;
+	margin: 0 5%;
+	float: left;
+}
+.div_masterpieceTypeActiveBorder {
+	position: relative;
+	left: 0px;
+	right: auto;
+	height: 0.5%;
+	width: 40%;
+	margin: 0 5%;
+	float: left;
+	background-color: #2EAF41;
+	transition: all 0.3s ease;
+}
+.div_masterpieceTypeBorder {
+	float: left;
+	width: 100%;
+	background-color: #2EAF41;
+	height: 0.5%;
+}
 
-}
-.div_masterpieceTypeActiveBorder{
-	position:relative;
-	left:0px;
-	right:auto;
-	height:0.5%;
-	width:40%;
-	margin:0 5%;
-	float:left;
-	background-color:#2EAF41;
-	transition:all 0.3s ease;
-}
-.div_masterpieceTypeBorder{
-	float:left;
-	width:100%;
-	background-color:#2EAF41;
-	height:0.5%;	
-}
-.div_masterpieceTypeBorder h2{
-}
 .div_masterpieceContentContainer {
-	float:right;
-	position:relative;;
-	right:0px;
-	width:200%;
-	height:85%;
-	margin-top:4%;
-	transition:right 0.3s ease;
+	float: right;
+	position: relative;
+	;
+	right: 0px;
+	width: 200%;
+	height: 85%;
+	margin-top: 4%;
+	transition: right 0.3s ease;
 }
-.div_masterpieceContent{
-	box-sizing:border-box;
-	float:right;
-	width:50%;
-	height:100%;
-	padding:0 3%;
+.div_masterpieceContent {
+	position:relative;
+	box-sizing: border-box;
+	float: right;
+	width: 50%;
+	height: 100%;
+	padding: 0 3%;
 }
-#CM_masterpieceContent2{
-	float:left;}
+#CM_masterpieceContent2 {
+	float: left;
+}
+.more{
+	position:absolute;
+	bottom:5%;
+}
+.moreR{
+	right:6%;
+}
+.div_masterpieceContent a:link {
+	color: black;
+}
+.div_masterpieceContent a:visited {
+	color: black;
+}
+.div_masterpieceContent a:hover {
+	color: #2EAF41;
+	text-decoration:underline;
+}
+.div_masterpieceContent a:active {
+	color: black;
+}
