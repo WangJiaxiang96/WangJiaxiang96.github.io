@@ -13,9 +13,11 @@ function widthDecreased(){
 
 function pageLoaded(){
 	"use strict";
-	var h=window.screen.height;
+	var h=window.screen.availHeight;
 	var th1=document.getElementById('div_TH1');
-	var miracle=document.getElementsByClassName('div_miracle');
+	var codeMonkey=document.getElementById('div_codeMonkey');
+	var musicProducer=document.getElementById('div_musicProducer');
 	th1.style.cssText="height:"+h+"px;";
-	miracle.style.cssText="height:"+h+"px;";
+	musicProducer.style.cssText="height:"+(h*0.8)+"px;";
+	codeMonkey.style.cssText="height:"+(h*0.8)+"px;";
 }
