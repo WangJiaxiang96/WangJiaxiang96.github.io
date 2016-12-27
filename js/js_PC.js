@@ -9,7 +9,7 @@ function widthIncreased(){
 function widthDecreased(){
 	"use strict";
 	var v=document.getElementById('div_tittle');
-	v.style.cssText="width:710px";
+	v.style.cssText="width:710px;";
 }
 
 function pageLoaded(){
@@ -21,7 +21,7 @@ function pageLoaded(){
 	var codeMonkey=document.getElementById('div_codeMonkey');
 	var musicProducer=document.getElementById('div_musicProducer');
 	th1.style.cssText="height:"+h+"px;";
-	musicProducer.style.cssText="height:"+(h*0.8)+"px;";
-	codeMonkey.style.cssText="height:"+(h*0.8)+"px;";
-	}
+	musicProducer.style.cssText="height:"+h+"px;";
+	codeMonkey.style.cssText="height:"+h+"px;";
+	}	
 }
