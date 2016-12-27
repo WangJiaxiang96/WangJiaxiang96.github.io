@@ -16,7 +16,7 @@ function pageLoaded(){
 	"use strict";
 	var w=window.screen.width;
 	if(w>=960) {			
-	var h=window.innerHeight;	
+	var h=window.screen.height;	
 	var th1=document.getElementById('div_TH1');
 	var codeMonkey=document.getElementById('div_codeMonkey');
 	var musicProducer=document.getElementById('div_musicProducer');
@@ -33,8 +33,14 @@ function sliding2R(id){
 	e=document.getElementById(id);
 	var ww=e.offsetLeft;
 	if(ww<e.offsetWidth){
+		var idd;
+		if(id==='border1'){idd='container1';}
+		else {idd='container2';}			
+	    var ee=document.getElementById(idd);	
+		var cw=document.getElementById('CM_masterpieceContent1').offsetWidth;
 	    w=w/0.8;    	
     	e.style.cssText="left:"+w+"px;";
+		ee.style.cssText="right:-"+cw+"px;";
 	}
 }
 
@@ -42,8 +48,13 @@ function sliding2L(id){
 	"use strict";
 	var e=document.getElementById(id);
 	var w=e.offsetLeft;
-	if(w>e.offsetWidth){	
+	if(w>e.offsetWidth){
+		var idd;
+		if(id==='border1'){idd='container1';}
+		else {idd='container2';}			
+	    var ee=document.getElementById(idd);		
 	    e.style.cssText="left:0px;";
+		ee.style.cssText="right:0px;";
 	}
 }
 

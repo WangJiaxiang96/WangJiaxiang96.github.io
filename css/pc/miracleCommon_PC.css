@@ -41,6 +41,7 @@
 	padding:0 1% 0 1%;
 	box-sizing:border-box;
 	color:black;
+	overflow:hidden;
 }
 .div_masterpieceType{
 	cursor:pointer;
@@ -70,3 +71,21 @@
 }
 .div_masterpieceTypeBorder h2{
 }
+.div_masterpieceContentContainer {
+	float:right;
+	position:relative;;
+	right:0px;
+	width:200%;
+	height:85%;
+	margin-top:4%;
+	transition:right 0.3s ease;
+}
+.div_masterpieceContent{
+	box-sizing:border-box;
+	float:right;
+	width:50%;
+	height:100%;
+	padding:0 3%;
+}
+#CM_masterpieceContent2{
+	float:left;}
