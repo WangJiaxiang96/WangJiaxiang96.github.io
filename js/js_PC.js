@@ -3,7 +3,7 @@
 function widthIncreased(){
 	"use strict";
 	var v=document.getElementById('div_tittle');
-	v.style.cssText="width:980px;";
+	v.style.cssText="width:1050px;";
 }
 function widthDecreased(){
 	"use strict";

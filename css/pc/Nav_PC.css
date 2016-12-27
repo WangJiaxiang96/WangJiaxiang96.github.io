@@ -20,6 +20,7 @@
 	color: black;
 	width: 710px;
 	line-height: 75px;
+	height:75px;
 	transition:width 0.3s ease;
 	overflow:hidden;
 	padding-right:50px;
