@@ -3,6 +3,9 @@
 /* CSS Document */
 
 #div_nav {
+	position:absolute;
+	top:0px;
+	left:0px;
 	visibility:hidden;
 	display:none;
 }

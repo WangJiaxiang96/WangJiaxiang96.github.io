@@ -3,6 +3,9 @@
 /* CSS Document */
 
 #div_hamburger {
+	position:absolute;
+	top:0px;
+	left:0px;
 	display: none;
 	visibility:hidden;
 }

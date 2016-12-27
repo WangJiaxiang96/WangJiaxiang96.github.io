@@ -3,8 +3,10 @@
 
 .div_miracle {
 	width: 100%;
-	height: 1000px;
+	position:relative;
+	top:0px;
 	overflow: hidden;
+	margin-top:200px;
 }
 .div_bg {
 	width: 100%;
@@ -17,8 +19,8 @@
 	color: white;
 	width: 900px;
 	margin: 0 auto;
-	position: relative;
-	bottom: 800px;
+	position: absolute;
+	top:0px;	
 }
 .div_miracleTittle {
 	font-size: 36px;
@@ -28,11 +30,4 @@
 }
 .ul_masterpiece li a:hover {
 	text-decoration: underline;
-}
-.div_end {
-	position: relative;
-	bottom: 500px;
-	width: 100%;
-	height: 200px;
-	background-color: #F4F4F4;
 }

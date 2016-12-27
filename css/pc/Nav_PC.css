@@ -18,10 +18,11 @@
 	margin: 0 auto;
 	opacity: 1;
 	color: black;
-	width: 720px;
+	width: 710px;
 	line-height: 75px;
 	transition:width 0.3s ease;
 	overflow:hidden;
+	padding-right:50px;
 }
 #div_tittle ul {
 	padding:0px;
