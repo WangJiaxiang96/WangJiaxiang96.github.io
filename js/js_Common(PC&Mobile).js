@@ -17,8 +17,7 @@ $('.targetM').click(function(){
 	    $('html,body').animate({
 			scrollTop:$('#div_musicProducer').offset().top
 			},600);
-	}
-);});
+});});
 
 //滑动到顶部
 $(function(){ 
@@ -27,5 +26,4 @@ $('#a_main').click(function(){
 	    $('html,body').animate({
 			scrollTop:0
 			},600);
-	}
-);});
+});});

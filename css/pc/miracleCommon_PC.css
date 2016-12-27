@@ -25,22 +25,48 @@
 	top:20%;	
 }
 .div_miracleTittle {
+	cursor:default;
 	font-size: 36px;
 	float:left;
+	width:55%;
+	margin-right:5%;
 }
 .div_masterpiece {
+	position:relative;
 	opacity:0.6;
 	background-color:#F4F4F4;
 	height:100%;
 	width:40%;
-	float:right;		
+	float:left;
+	padding:0 1% 0 1%;
+	box-sizing:border-box;
+	color:black;
 }
 .div_masterpieceType{
+	cursor:pointer;
+	text-align:center;
 	height:10%;
-	width:48%;
-	margin:0 1%;
+	width:40%;
+	margin:0 5%;
 	float:left;
-	border-bottom-color:#2EAF41;
-	border-bottom-style:solid;
-	border-bottom-width:medium;
+
+}
+.div_masterpieceTypeActiveBorder{
+	position:relative;
+	left:0px;
+	right:auto;
+	height:0.5%;
+	width:40%;
+	margin:0 5%;
+	float:left;
+	background-color:#2EAF41;
+	transition:all 0.3s ease;
+}
+.div_masterpieceTypeBorder{
+	float:left;
+	width:100%;
+	background-color:#2EAF41;
+	height:0.5%;	
+}
+.div_masterpieceTypeBorder h2{
 }

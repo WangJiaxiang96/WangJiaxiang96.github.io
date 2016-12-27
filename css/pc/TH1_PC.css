@@ -14,7 +14,7 @@
 #div_TH2 {
 	margin: 0 auto;
 	position: relative;
-	top: 13%;
+	top: 20%;
 	width: 80%;
 	height: 80%;
 	float: none;
@@ -26,7 +26,7 @@
 	display: block;
 	background: #F4F4F4;
 	opacity: 0.6;
-	box-sizing: content-box;
+	box-sizing:border-box;
 	float: left;
 }
 #self {
