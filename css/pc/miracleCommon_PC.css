@@ -56,12 +56,17 @@
 	overflow: hidden;
 }
 .div_masterpieceType {
+	box-sizing: border-box;
 	cursor: pointer;
 	text-align: center;
+	display: table;
+	vertical-align: center;
 	height: 10%;
 	width: 40%;
 	margin: 0 5%;
 	float: left;
+}
+.div_masterpieceType h2 {
 }
 .div_masterpieceTypeActiveBorder {
 	position: relative;
@@ -80,7 +85,6 @@
 	background-color: #2EAF41;
 	height: 0.5%;
 }
-
 .div_masterpieceContentContainer {
 	float: right;
 	position: relative;
@@ -92,7 +96,7 @@
 	transition: right 0.3s ease;
 }
 .div_masterpieceContent {
-	position:relative;
+	position: relative;
 	box-sizing: border-box;
 	float: right;
 	width: 50%;
@@ -102,23 +106,23 @@
 #CM_masterpieceContent2 {
 	float: left;
 }
-.more{
-	position:absolute;
-	bottom:5%;
+.more {
+	overflow: hidden;
+	position: absolute;
+	bottom: 5%;
+	left: 8%;
+	transition: all 0.3s ease;
 }
-.moreR{
-	right:6%;
-}
-.div_masterpieceContent a:link {
+.div_masterpiece a:link {
 	color: black;
 }
-.div_masterpieceContent a:visited {
+.div_masterpiece a:visited {
 	color: black;
 }
-.div_masterpieceContent a:hover {
+.div_masterpiece a:hover {
 	color: #2EAF41;
-	text-decoration:underline;
+	text-decoration: underline;
 }
-.div_masterpieceContent a:active {
+.div_masterpiece a:active {
 	color: black;
 }
