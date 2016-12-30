@@ -1,17 +1,4 @@
 // JavaScript Document
-
-function widthIncreased() {
-    "use strict";
-    var v = document.getElementById('div_tittle');
-    v.style.cssText = "width:955px;";
-}
-
-function widthDecreased() {
-    "use strict";
-    var v = document.getElementById('div_tittle');
-    v.style.cssText = "width:710px;";
-}
-
 function pageLoaded() {
     "use strict";
     var w = window.screen.width;
@@ -24,6 +11,18 @@ function pageLoaded() {
         musicProducer.style.cssText = "height:" + h + "px;";
         codeMonkey.style.cssText = "height:" + h + "px;";
     }
+}
+
+function widthIncreased() {
+    "use strict";
+    var v = document.getElementById('div_tittle');
+    v.style.cssText = "width:955px;";
+}
+
+function widthDecreased() {
+    "use strict";
+    var v = document.getElementById('div_tittle');
+    v.style.cssText = "width:710px;";
 }
 
 function moreSliding(more,d){

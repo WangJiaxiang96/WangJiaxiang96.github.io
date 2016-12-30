@@ -1,4 +1,9 @@
 // JavaScript Document
+$(document).ready(function(e) {
+	"use strict";
+    var h=$('#div_Icon').height();
+	$('#div_Icon').width(h);
+});
 
 function openPanel() {
     "use strict";
@@ -14,7 +19,6 @@ function collapsePanel() {
     menuPanel.style.cssText = "left:-200px;";
     var menuBG = document.getElementById("menu_bg");
     menuBG.style.cssText = "display:none;";
-    menuBG.add
 }
 
 function hamburgerMenu() {

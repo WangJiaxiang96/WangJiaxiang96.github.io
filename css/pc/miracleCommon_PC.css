@@ -37,6 +37,7 @@
 	top: 20%;
 }
 .div_miracleTittle {
+	display:block;
 	cursor: default;
 	font-size: 36px;
 	float: left;
@@ -54,6 +55,7 @@
 	box-sizing: border-box;
 	color: black;
 	overflow: hidden;
+	margin:0px;
 }
 .div_masterpieceType {
 	box-sizing: border-box;

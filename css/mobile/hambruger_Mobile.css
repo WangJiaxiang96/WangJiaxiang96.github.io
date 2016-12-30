@@ -16,6 +16,8 @@
 	width: 100%;
 	height: 100%;
 	background-color: white;
+	display:table;
+	vertical-align:central;
 }
 #div_Icon {
 	background-image: url(../../images/hamburgerIcon.png);
@@ -23,18 +25,18 @@
 	background-size: cover;
 	display: block;
 	width: 60px;
-	height: 80%;
+	height: 100%;
 	float: left;
 }
 #div_hamTittle {
-	font-size: 36px;
+	margin-left:3%;
+	display:block;
 	font-family: AlexBrush;
-	display: block;
-	width: 50px;
 	float: left;
-	line-height: 100%;
+
 }
 #menu {
+	display:none;
 	width:100%;
 	left:0px;	
 	position:fixed;
@@ -42,23 +44,23 @@
 	height:90%;	
 }
 #menu_content{
-	position:relative;
+	position:fixed;
 	transition:left 0.5s ease;
 	background-color:white;
 	bottom:0px;
 	left:-200px;
 	width:200px;	
-	height:100%;
+	height:90%;
 	z-index:2;
 }
 #menu_bg {
-	position:absolute;
+	position:fixed;
 	left:0px;
-	top:0px;
+	bottom:0px;
 	background-color:black;
 	opacity:0.3;
 	width:100%;
-	height:100%;
+	height:90%;
 	z-index:1;
 	display:none;	
 	transition:display 0.5s ease;

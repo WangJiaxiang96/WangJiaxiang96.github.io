@@ -2,7 +2,7 @@
 <html>
 <head>
 <!--自适应原理：默认加载mobile版页面css，当设备宽度大于700且显示宽度大于700时，则用pc版页面css覆盖-->
-<link rel="stylesheet" media=" all screen and (min-device-width:0px) and (max-device-width:960px)" type="text/css" href="css/mobile/codeMonkey_Mobile.css">
+<link rel="stylesheet" media="all and (min-device-width:0px) and (max-device-width:960px)" type="text/css" href="css/mobile/codeMonkey_Mobile.css">
 <link rel="stylesheet" media="all and (min-device-width:0px) and (max-device-width:960px)" type="text/css" href="css/mobile/bottom_Mobile.css">
 <link rel="stylesheet" media="all and (min-device-width:0px) and (max-device-width:960px)" type="text/css" href="css/mobile/hambruger_Mobile.css">
 <link rel="stylesheet" media="all and (min-device-width:0px) and (max-device-width:960px)" type="text/css" href="css/mobile/miracleCommon_Mobile.css">
@@ -25,9 +25,8 @@
 <link rel="stylesheet" media="all and (min-device-width:960px) and (min-width:960px)" type="text/css" href="css/pc/codeMonkey_PC.css">
 <link rel="stylesheet" media="all and (min-device-width:960px) and (min-width:960px)" type="text/css" href="css/pc/TH1_PC.css">
 <link rel="stylesheet" media="all and (min-device-width:960px) and (min-width:960px)" type="text/css" href="css/pc/Universal_PC.css">
-<link rel="stylesheet" media="all and (min-device-width:960px) and (min-width:960px)" type="text/css" href="css/pc/Nav_PC.css">
 <link rel="stylesheet" type="text/css" href="css/common/font.css">
-<script src="jQueryAssets/jquery-3.1.1.min.js"></script>
+<link rel="stylesheet" media="all and (min-device-width:960px) and (min-width:960px)" type="text/css" href="css/pc/Nav_PC.css"><script src="jQueryAssets/jquery-3.1.1.min.js"></script>
 <script src="js/js_Mobile.js"></script>
 <script src="js/js_PC.js"></script>
 <script src="js/js_Common(PC_Mobile).js"></script>
@@ -43,10 +42,9 @@
 <body onLoad="pageLoaded()" id="allBody">
 <div id="div_hamburger">
   <div id="div_topBar">
-    <div id="div_Icon" onClick="hamburgerMenu()"></div>
-    <div id="div_hamTittle"> Wangjiaxiang.net </div>
+    <div id="div_Icon" onClick="hamburgerMenu()">    </div>
+    <div id="div_hamTittle"> <h1>Wangjiaxiang.net</h1> </div>
   </div>
-  <div id="menu">
     <div id="menu_bg" onClick="collapsePanel()"></div>
     <div id="menu_content">
       <ul>
@@ -54,7 +52,6 @@
         <li><a>编曲真好玩儿</a></li>
       </ul>
     </div>
-  </div>
 </div>
 <div id="div_nav">
   <div id="div_tittle">
@@ -106,8 +103,8 @@
       <div class="div_masterpieceTypeActiveBorder" id="border1"></div>
       <div class="div_masterpieceTypeBorder"></div>
       <div class="div_masterpieceContentContainer" id="container1">
-        <div class="div_masterpieceContent" id="CM_masterpieceContent1">111</div>
-        <div class="div_masterpieceContent" id="CM_masterpieceContent2">222</div>
+        <div class="div_masterpieceContent" id="CM_masterpieceContent1">文章还没写出来哦~</div>
+        <div class="div_masterpieceContent" id="CM_masterpieceContent2">文章还没写出来哦~</div>
       </div>
       <h4 class="more" id="more1"><a>MORE...</a></h4>
     </div>
@@ -130,8 +127,8 @@
       <div class="div_masterpieceTypeActiveBorder" id="border2"></div>
       <div class="div_masterpieceTypeBorder"></div>
       <div class="div_masterpieceContentContainer" id="container2">
-        <div class="div_masterpieceContent" id="MP_masterpieceContent1">111</div>
-        <div class="div_masterpieceContent" id="MP_masterpieceContent2">222</div>
+        <div class="div_masterpieceContent" id="MP_masterpieceContent1">文章还没写出来哦~</div>
+        <div class="div_masterpieceContent" id="MP_masterpieceContent2">文章还没写出来哦~</div>
       </div>
       <h4 class="more" id="more2"><a>MORE...</a></h4>
     </div>

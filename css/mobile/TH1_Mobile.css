@@ -6,32 +6,46 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
-	height: 600px;
-	margin-top:55px;
+	position: relative;
+	top: 0px;
+	margin-top: 0px;
+	height: 1100px;
 }
 #div_TH2 {
-	margin-right: 10px;
+	margin: 0 auto;
 	position: relative;
-	top:200px;
-	float: right;
-	width: 100%;
-	color: black;
+	top: 20%;
+	width: 80%;
+	height: 80%;
+	float: none;
+	display: block;
+	color: white;
 	text-shadow: #ACEBA2;
 }
-#div_TH3 {
-	background-color: #F4F4F4;
-	width: 100%;
-	height: 100px;
-	position: relative;
-	top: 550px;
-	left: 0px;
+#div_TH2 div {
+	display: block;
+	background: #F4F4F4;
+	opacity: 0.6;
+	box-sizing:border-box;
+	float: left;
 }
-#div_TH2 b {
-	font-family: AlexBrush;
-	font-size: 36px;
-	float: right;
+#self {
+	width: 30%;
+	height: 80%;
 }
-#div_TH2 p {
-	float: right;
-	font-size: 24px;
+#others {
+	margin-left:5%;
+	height: 40%;
+	width: 65%;
+	margin-bottom:5.5%;
+}
+#listCoding {
+	margin-left:5%;
+	margin-right:5%;
+	width: 30%;
+	height: 30%;
+}
+#listMusic {
+	width: 30%;
+	height: 30%;
 }

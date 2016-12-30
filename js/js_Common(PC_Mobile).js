@@ -15,3 +15,5 @@ $(function () {
 
     });
 });
+
+$('#div_codeMonkey_div_masterpiece').sli
