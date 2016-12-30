@@ -22,30 +22,93 @@
 	color: white;
 	text-shadow: #ACEBA2;
 }
-#div_TH2 div {
+#div_TH2 a:link {
+	color: black;
+}
+#div_TH2 a:visited {
+	color: black;
+}
+#div_TH2 a:hover {
+	color: black;
+	text-decoration:underline;
+}
+#div_TH2 a:active {
+	color: black;
+}
+#self,#others,#listMusic,#share  {
+	position:relative;
 	display: block;
-	background: #F4F4F4;
-	opacity: 0.6;
+	background-color: rgba(239,239,239,0.61);
 	box-sizing:border-box;
 	float: left;
+	color:black;
 }
 #self {
-	width: 30%;
-	height: 80%;
+	padding:10px;;
+	width: 20%;
+	height: auto;
+	padding-top:20px;
+}
+
+#name {
+	font-size:24px;
+	text-align:center;
+	font-weight:bold;
+}
+#introduction{
+	margin:15px auto;
+	font-size:18px;
+	margin-left:10px;
+	width:98%;
+	text-align:center;
+}
+#tag{
+	padding:5px;
+	width:98%;
+	box-sizing:border-box;
+	display:block;
+	height:auto;
+}
+.tagItem{
+	position:relative;
+	display:block;
+	float:left;
+	margin:5px;
+	background-color:rgba(228,228,228,0.6);
+	padding:5px;
 }
 #others {
+	padding:10px 20px;
 	margin-left:5%;
-	height: 40%;
-	width: 65%;
+	height: 80%;
+	width: 50%;
 	margin-bottom:5.5%;
 }
-#listCoding {
+#share {
 	margin-left:5%;
-	margin-right:5%;
-	width: 30%;
-	height: 30%;
+	width: 20%;
+	height: auto;;
+	padding-top:20px;
+	text-align:center;
+	padding-bottom:30px;
+}
+#share img{
+	display:block;
+	width:180px;
+	height:180px;
+	margin:0 auto;
 }
 #listMusic {
-	width: 30%;
+	padding:0 20px;
+	margin-top:5%;
+	margin-left:5%;
+	width: 20%;
 	height: 30%;
+}
+.borderTop{
+	width:100%;
+	height:3px;
+	border-top-style:solid;
+	border-top-width:thin;
+	border-top-color:black;
 }

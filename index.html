@@ -2,22 +2,8 @@
 <html>
 <head>
 <!--自适应原理：默认加载mobile版页面css，当设备宽度大于700且显示宽度大于700时，则用pc版页面css覆盖-->
-<link rel="stylesheet" media="all and (min-device-width:0px) and (max-device-width:960px)" type="text/css" href="css/mobile/codeMonkey_Mobile.css">
-<link rel="stylesheet" media="all and (min-device-width:0px) and (max-device-width:960px)" type="text/css" href="css/mobile/bottom_Mobile.css">
 <link rel="stylesheet" media="all and (min-device-width:0px) and (max-device-width:960px)" type="text/css" href="css/mobile/hambruger_Mobile.css">
-<link rel="stylesheet" media="all and (min-device-width:0px) and (max-device-width:960px)" type="text/css" href="css/mobile/miracleCommon_Mobile.css">
-<link rel="stylesheet" media="all and (min-device-width:0px) and (max-device-width:960px)" type="text/css" href="css/mobile/musicProducer_Mobile.css">
-<link rel="stylesheet" media="all and (min-device-width:0px) and (max-device-width:960px)" type="text/css" href="css/mobile/Nav_Mobile.css">
-<link rel="stylesheet" media="all and (min-device-width:0px) and (max-device-width:960px)" type="text/css" href="css/mobile/TH1_Mobile.css">
-<link rel="stylesheet" media="all and (min-device-width:0px) and (max-device-width:960px)" type="text/css" href="css/mobile/Universal_Mobile.css">
-<link rel="stylesheet" media="all and (min-device-width:960px) and (min-width:0px)" type="text/css" href="css/mobile/codeMonkey_Mobile.css">
-<link rel="stylesheet" media="all and (min-device-width:960px) and (min-width:0px)" type="text/css" href="css/mobile/bottom_Mobile.css">
 <link rel="stylesheet" media="all and (min-device-width:960px) and (min-width:0px)" type="text/css" href="css/mobile/hambruger_Mobile.css">
-<link rel="stylesheet" media="all and (min-device-width:960px) and (min-width:0px)" type="text/css" href="css/mobile/miracleCommon_Mobile.css">
-<link rel="stylesheet" media="all and (min-device-width:960px) and (min-width:0px)" type="text/css" href="css/mobile/musicProducer_Mobile.css">
-<link rel="stylesheet" media="all and (min-device-width:960px) and (min-width:0px)" type="text/css" href="css/mobile/Nav_Mobile.css">
-<link rel="stylesheet" media="all and (min-device-width:960px) and (min-width:0px)" type="text/css" href="css/mobile/TH1_Mobile.css">
-<link rel="stylesheet" media="all and (min-device-width:960px) and (min-width:0px)" type="text/css" href="css/mobile/Universal_Mobile.css">
 <link rel="stylesheet" media="all and (min-device-width:960px) and (min-width:960px)" type="text/css" href="css/pc/hambruger_PC.css">
 <link rel="stylesheet" media="all and (min-device-width:960px) and (min-width:960px)" type="text/css" href="css/pc/bottom_PC.css">
 <link rel="stylesheet" media="all and (min-device-width:960px) and (min-width:960px)" type="text/css" href="css/pc/musicProducer_PC.css">
@@ -26,7 +12,8 @@
 <link rel="stylesheet" media="all and (min-device-width:960px) and (min-width:960px)" type="text/css" href="css/pc/TH1_PC.css">
 <link rel="stylesheet" media="all and (min-device-width:960px) and (min-width:960px)" type="text/css" href="css/pc/Universal_PC.css">
 <link rel="stylesheet" type="text/css" href="css/common/font.css">
-<link rel="stylesheet" media="all and (min-device-width:960px) and (min-width:960px)" type="text/css" href="css/pc/Nav_PC.css"><script src="jQueryAssets/jquery-3.1.1.min.js"></script>
+<link rel="stylesheet" media="all and (min-device-width:960px) and (min-width:960px)" type="text/css" href="css/pc/Nav_PC.css">
+<script src="jQueryAssets/jquery-3.1.1.min.js"></script>
 <script src="js/js_Mobile.js"></script>
 <script src="js/js_PC.js"></script>
 <script src="js/js_Common(PC_Mobile).js"></script>
@@ -41,23 +28,25 @@
 
 <body onLoad="pageLoaded()" id="allBody">
 <div id="coverAll">
-<div>
-<p>手机/窄屏适配未完成</p>
-<p>请使用宽屏PC浏览此网页！</p>
-</div>
+  <div>
+    <p>手机/窄屏适配未完成</p>
+    <p>请使用宽屏PC浏览此网页！</p>
+  </div>
 </div>
 <div id="div_hamburger">
   <div id="div_topBar">
-    <div id="div_Icon" onClick="hamburgerMenu()">    </div>
-    <div id="div_hamTittle"> <h1>Wangjiaxiang.net</h1> </div>
-  </div>
-    <div id="menu_bg" onClick="collapsePanel()"></div>
-    <div id="menu_content">
-      <ul>
-        <li><a>编程那些事儿</a></li>
-        <li><a>编曲真好玩儿</a></li>
-      </ul>
+    <div id="div_Icon" onClick="hamburgerMenu()"> </div>
+    <div id="div_hamTittle">
+      <h1>Wangjiaxiang.net</h1>
     </div>
+  </div>
+  <div id="menu_bg" onClick="collapsePanel()"></div>
+  <div id="menu_content">
+    <ul>
+      <li><a>编程那些事儿</a></li>
+      <li><a>编曲真好玩儿</a></li>
+    </ul>
+  </div>
 </div>
 <div id="div_nav">
   <div id="div_tittle">
@@ -86,10 +75,37 @@
 </div>
 <div id="div_TH1">
   <div id="div_TH2">
-    <div id="self"> </div>
-    <div id="others"></div>
-    <div id="listCoding"></div>
-    <div id="listMusic"></div>
+    <div id="self">
+      <div id="name">
+        王嘉祥/Jason Wang
+      </div>
+      <div id="introduction">
+        会编曲的开发者/会编程的唱作人
+      </div>
+      <div id="tag">
+        <div class="tagItem">HTML</div>
+        <div class="tagItem">软粉</div>
+        <div class="tagItem">UWP</div>
+        <div class="tagItem">C#</div>
+        <div class="tagItem">JAVA</div>
+        <div class="tagItem">编曲</div>
+        <div class="tagItem">FL Studio</div>
+        <div class="tagItem">Steam</div>
+      </div>
+    </div>
+    <div id="others">
+    <div id="latestTittle">
+    <a><h4>&gt; &gt; 最新</h4></a>
+    <div class="borderTop"></div>
+    </div>文章还没写哦</div>
+    <div id="share">
+    <img src="images/qrcode.jpg" alt="qrcode">
+    <div>
+    <h4>扫一扫</h4>
+    <h4>关注我的公众号</h4></div></div>
+    <div id="listMusic">
+    <a><h4>&gt; &gt; TOP5</h4></a>
+    <div class="borderTop"></div></div>
   </div>
 </div>
 <div class="div_miracle" id="div_codeMonkey">
