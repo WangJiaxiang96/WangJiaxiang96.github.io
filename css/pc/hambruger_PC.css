@@ -1,7 +1,9 @@
 @charset "utf-8";
 
 /* CSS Document */
-
+#coverAll{
+	display:none;
+}
 #div_hamburger {
 	position:absolute;
 	top:0px;

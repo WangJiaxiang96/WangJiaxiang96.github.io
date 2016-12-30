@@ -1,7 +1,19 @@
 @charset "utf-8";
 
 /* CSS Document */
-
+#coverAll{
+	background:white;
+	z-index:5;
+	position:fixed;
+	width:100%;
+	height:100%;
+	display:block;
+}
+#coverAll div {
+	margin-top:200px;
+	width:200px;
+	margin:0 auto;
+}
 #div_hamburger {
 	width: 100%;
 	height: 10%;
