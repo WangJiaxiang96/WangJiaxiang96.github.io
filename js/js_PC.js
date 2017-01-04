@@ -14,7 +14,7 @@ function pageLoaded() {
 }
 
 function widthIncreased() {
-    "use strict";
+	 "use strict";
     var v = document.getElementById('div_tittle');
     v.style.cssText = "width:955px;";
 }
@@ -25,19 +25,19 @@ function widthDecreased() {
     v.style.cssText = "width:710px;";
 }
 
-function moreSliding(more,d){
-	"use strict";
-	var e=document.getElementById(more);		
-	var w=e.offsetWidth;
-	var cw=document.getElementById('div_codeMonkey_div_masterpiece').offsetWidth;
-	var pw=cw*0.08;
-	var l=cw-w-pw;
-	if(d===1){
-    e.style.cssText="left:8%;";
-	}
-	else {
-		e.style.cssText="left:"+l+"px;";
-	}
+function moreSliding(more, d) {
+    "use strict";
+    var e = document.getElementById(more);
+    var w = e.offsetWidth;
+    var cw = document.getElementById('div_codeMonkey_div_masterpiece').offsetWidth;
+    var pw = cw * 0.08;
+    var l = cw - w - pw;
+    if (d === 1) {
+        e.style.cssText = "left:8%;";
+    }
+    else {
+        e.style.cssText = "left:" + l + "px;";
+    }
 
 }
 
@@ -49,15 +49,15 @@ function sliding2R(id) {
     var ww = e.offsetLeft;
     if (ww < e.offsetWidth) {
         var idd;
-		var more;
-        if (id === 'border1') { idd = 'container1'; more='more1';}
-        else { idd = 'container2';more='more2' ;}
+        var more;
+        if (id === 'border1') { idd = 'container1'; more = 'more1'; }
+        else { idd = 'container2'; more = 'more2'; }
         var ee = document.getElementById(idd);
         var cw = document.getElementById('CM_masterpieceContent1').offsetWidth;
         w = w / 0.8;
         e.style.cssText = "left:" + w + "px;";
         ee.style.cssText = "right:-" + cw + "px;";
-		moreSliding(more,2);
+        moreSliding(more, 2);
     }
 }
 
@@ -67,13 +67,13 @@ function sliding2L(id) {
     var w = e.offsetLeft;
     if (w > e.offsetWidth) {
         var idd;
-		var more;
-        if (id === 'border1') { idd = 'container1';more='more1'; }
-        else { idd = 'container2'; more='more2';}
+        var more;
+        if (id === 'border1') { idd = 'container1'; more = 'more1'; }
+        else { idd = 'container2'; more = 'more2'; }
         var ee = document.getElementById(idd);
         e.style.cssText = "left:0px;";
         ee.style.cssText = "right:0px;";
-		moreSliding(more,1);
+        moreSliding(more, 1);
     }
 }
 
@@ -103,9 +103,3 @@ $(function () {
         if (s === 'ul2_2') { sliding2R('border2'); }
     });
 });
-
-
-
-
-
-

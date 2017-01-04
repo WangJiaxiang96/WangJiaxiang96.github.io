@@ -1,5 +1,5 @@
 // JavaScript Document
-$(document).ready(function(e) {
+$(document).ready(function() {
 	"use strict";
     var h=$('#div_Icon').height();
 	$('#div_Icon').width(h);
